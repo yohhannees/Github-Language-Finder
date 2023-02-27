@@ -14,4 +14,8 @@ def list_languages_on_repos(username):
 
     markdown_list = "- " + "\n- ".join(sorted(languages))
     return f"## Languages Used\n{markdown_list}"
-    
+
+#    To use this function, simply call it with your GitHub username as an argument, like so:
+
+
+print(list_languages_on_repos("your_username_here"))
